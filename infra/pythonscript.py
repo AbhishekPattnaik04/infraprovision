@@ -1,5 +1,3 @@
-enter = int(input('Enter number of instances: '))
-
 from python_terraform import *
 
 tf = Terraform(working_dir='/root/python', variables={'count':enter})
